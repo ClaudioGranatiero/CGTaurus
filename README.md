@@ -40,19 +40,3 @@ during startup, pressing a button or a pedal changes some configuration:
 
 The sketch is loaded on an Arduino Micro Pro (chinese equivalent of an Arduino Leonardo), set as "TeeOnArdu" (https://github.com/adafruit/TeeOnArdu). This restrict the usage of Arduino IDE to the old 1.0.6 version, because more recent versions doesn't support TeeOnArdu. The code could maybe ported to MIDIUSB library (official and currently supported).
 To load the sketch on the Micro Pro you need to press the reset button as soon as the loading starts, because the usb port is set to "MIDI device".
-
-Pins on Pro Micro:
-                   --------------------
-         (COL1)   |1                RAW|
-         (COL2)   |0                GND|
-                  |GND              RST|
-                  |GND              VCC|
-          ROW1    |2              A 21 |    LEDS
-          ROW2    |3  P           A 20 |    LED
-          ROW3    |4 A            A 19 |
-          ROW4    |5  P           A 18 |
-          ROW5    |6 AP             15 |          -SLCK-
-          ROW6    |7                14 |   (COL1) -MISO-
-          ROW7    |8 A              16 |   (COL2) -MOSI-
-          ROW8    |9 AP          PA 10 |    COL3
-                   --------------------

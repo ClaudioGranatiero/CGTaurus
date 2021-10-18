@@ -1,5 +1,5 @@
 # CGTaurus
-A midi instruments using an Arduino Micro Pro (or an Arduino Leonardo) and a Fatar PD/3 pedalboard
+A midi instrument using an Arduino Micro Pro (or an Arduino Leonardo) and a Fatar PD/3 pedalboard
 
 We are using KeyPad library to control the 13 pedals of a Fatar PD/3 pedalboard and 7 arcade buttons (1,2,3,4,5,P,N).
 We cannot use the more logical configuration of 3 rows x 8 columns, because the Fatar has diodes, so we must reverse the logic and use 8 rows x 3 columns.
